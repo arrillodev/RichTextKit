@@ -21,3 +21,5 @@ jobs:
         run: bash scripts/build.sh ${{ github.event.repository.name }}
       - name: Test iOS
         run: bash scripts/test.sh ${{ github.event.repository.name }}
+
+#MS Test
